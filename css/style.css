@@ -47,7 +47,10 @@ body > div {
   color: #212121;
 }
 
-#image {
+#image-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 32vw;
 }
 
