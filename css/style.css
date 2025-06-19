@@ -1,4 +1,43 @@
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+body > div {
+  margin: 1em;
+  height: 100vh;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.buffer {
+  background-color: #212121;
+  width: 8vw;
+}
+
+.content-text {
+  font-family: "Arial", sans-serif;
   font-size: 18px;
-  color: rebeccapurple;
+  color: #212121;
+}
+
+#image {
+  /* border: 4px solid indianred; */
+  min-width: 32vw;
+}
+
+#content {
+  border: 4px solid rebeccapurple;
+  max-width: 52vw;
 }
