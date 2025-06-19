@@ -138,6 +138,15 @@ button {
   margin-top: 2rem;
 }
 
+#pwd:invalid,
+#confirm-pwd:invalid {
+  border: 3px solid red;
+}
+
+#pwd-criteria {
+  font-style: italic;
+}
+
 #log-in {
   margin: 1.5rem 0 0 3rem;
   font-style: italic;
