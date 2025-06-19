@@ -20,14 +20,6 @@ body > div {
   height: 100vh;
 }
 
-a {
-  color: white;
-}
-
-a:visited {
-  color: #ddd;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -72,6 +64,14 @@ button {
   top: 40vh;
   background-color: #f22e3d70;
   padding: 2rem;
+}
+
+.credit-link {
+  color: white;
+}
+
+.credit-link:visited {
+  color: #ddd;
 }
 
 .content-text {
@@ -136,4 +136,9 @@ button {
 
 #action {
   margin-top: 2rem;
+}
+
+#log-in {
+  margin: 1.5rem 0 0 3rem;
+  font-style: italic;
 }
