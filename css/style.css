@@ -27,14 +27,19 @@ body > div {
 }
 
 .content-text {
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 18px;
   color: #212121;
 }
 
 #image {
-  /* border: 4px solid indianred; */
-  min-width: 32vw;
+  width: 32vw;
+}
+
+#image > img {
+  position: absolute;
+  height: 100vh;
+  width: 32vw;
 }
 
 #content {
