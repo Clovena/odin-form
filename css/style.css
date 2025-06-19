@@ -1,3 +1,9 @@
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -56,8 +62,10 @@ body > div {
 }
 
 #logo-name {
+  font-family: 'Racing Sans One', sans-serif;
+  letter-spacing: 0.1rem;
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
   flex-grow: 2;
   text-align: center;
 }
